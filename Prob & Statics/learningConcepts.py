@@ -1,5 +1,6 @@
 # create a program that receives a list of data and calculates all the things (equations) in statistics.
 from header import Functions
+import math
 
 f = Functions()
 # f.d_entry()
@@ -19,13 +20,12 @@ print("------------------------------------------------------------------")
 print(f"Summation: {sum(lista_ordenada)}")
 print("------------------------------------------------------------------")
 
-# mediana
-if f.x%2 == 0:
-      median = (f.data[f.x//2 - 1] + f.data[f.x//2]) / 2
-      print(f"Median: {median}")
-elif f.x%2 != 0:
-        median = f.data[f.x//2]
-        print(f"Median: {median}")
+if f.x % 2 == 0:
+    median = (f.data[f.x // 2 - 1] + f.data[f.x // 2]) / 2
+    print(f"Median: {median}")
+elif f.x % 2 != 0:
+    median = f.data[f.x // 2]
+    print(f"Median: {median}")
 
 print("------------------------------------------------------------------")
 
@@ -33,7 +33,7 @@ average = sum(lista_ordenada) / f.x if f.x > 0 else 0
 print(f"Average: {average:.2f} {f.tittle}")
 
 print("------------------------------------------------------------------")
-# moda
+
 mod = []
 first_value = dict(sorted(frequency.items(), key=lambda item: item[1]))
 for values in frequency:
@@ -51,35 +51,23 @@ for key, value in frec_sorted.items():
     print(f"{key} : {value}")
 
 print("------------------------------------------------------------------")
-
+print("Cumulative absolute frequency: ")
 cumulatedSum = 0
 cumulatedFrec = {}
-
-print("Cumulative absolute frequency: ")
 for key in sorted(frec_sorted.keys()):
     cumulatedSum += frec_sorted[key]
     cumulatedFrec[key] = cumulatedSum
-
 for key, value in cumulatedFrec.items():
     print(f"{key} : {value}")
 
-# relative_frecuency the frequency / f.x
-
 print("------------------------------------------------------------------")
-
-relative_frec = {}
 print("Relative frequency: ")
+relative_frec = {}
 for key in frec_sorted.keys():
     relative_frec[key] = frec_sorted[key] / f.x
     print(f"{key} : {relative_frec[key]:.2f}")
 
-# print(frequency)
-# print(frec_sorted)
-
-# porcentages
-
 print("------------------------------------------------------------------")
-
 print("Porcentages: ")
 porcentages = {}
 for key in relative_frec.keys():

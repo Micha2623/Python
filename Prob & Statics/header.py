@@ -6,18 +6,18 @@ class Functions:
         self.frequencies = {}
         
     def d_entry(self):
-        print("\nProbability & Statistics full calculator \n\n")
+        print("\nProbability & Statistics numeric calculator \n\n")
         self.tittle = input("What are we going to calculate? ")
         self.x = int(input("How many datas? "))
         for n in range(self.x):
             dates = input(f"Insert the data for entry {n + 1}: ")
-            self.data.append(dates)  # Almacena los datos como cadenas
+            self.data.append(dates)
         
     def frec(self):
-        self.frequencies = {}  # Inicializa un diccionario vacío para almacenar las frecuencias
+        self.frequencies = {}
         for number in self.data:
             if number in self.frequencies:
-                self.frequencies[number] += 1  # Incrementa el contador si ya está en el diccionario
+                self.frequencies[number] += 1
             else:
-                self.frequencies[number] = 1  # Agrega el número al diccionario con un contador inicial de 1
-        return self.frequencies  # Retorna el diccionario de frecuencias
+                self.frequencies[number] = 1
+        return self.frequencies
