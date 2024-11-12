@@ -1,6 +1,6 @@
 class Functions:
     def __init__(self):
-        self.data = [7.0, 12.0, 20.0, 20.0, 20.0, 20.0, 25.0, 25.0, 25.0, 30.0, 32.0, 44.0, 45.0, 45.0, 55.0,88.0, 56.0, 60.0, 65.0, 87.0, 99.0]
+        self.data = []
         self.x = 0
         self.tittle = ""
         self.frequencies = {}
@@ -10,7 +10,7 @@ class Functions:
         self.tittle = input("What are we going to calculate? ")
         self.x = int(input("How many datas? "))
         for n in range(self.x):
-            dates = input(f"Insert the data for entry {n + 1}: ")
+            dates = float(input(f"Insert the data for entry {n + 1}: "))
             self.data.append(dates)
         
     def frec(self):
