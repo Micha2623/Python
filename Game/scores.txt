@@ -1,21 +1,8 @@
-Micha - 119
-YO - 456
-python -u "c:\Users\micha\Desktop\Programation\Python\Game\Game.py" - 90
-python -u "c:\Users\micha\Desktop\Programation\Python\Game\Game.py" - 64
-python -u "c:\Users\micha\Desktop\Programation\Python\Game\Game.py" - 179
-python -u "c:\Users\micha\Desktop\Programation\Python\Game\Game.py" - 434
-python -u "c:\Users\micha\Desktop\Programation\Python\Game\Game.py" - 324
-me - 472
-kk - 522
-micha - 785
-python -u "c:\Users\micha\Desktop\Programation\Python\Game\Game.py" - 9
-python -u "c:\Users\micha\Desktop\Programation\Python\Game\Game.py" - 107
-python -u "c:\Users\micha\Desktop\Programation\Python\Game\Game.py" - 170
-python -u "c:\Users\micha\Desktop\Programation\Python\Game\Game.py" - 227
-game - 595
-python -u "c:\Users\micha\Desktop\Programation\Python\Game\Game.py" - 899
-python -u "c:\Users\micha\Desktop\Programation\Python\Game\Game.py" - 198
-yo - 1398
-l - 662
-quit - 54
-python -u "c:\Users\micha\Desktop\Programation\Python\Game\Game.py" - 141
+Micha - 174
+Micha - 184
+micha - 103
+me - 1
+yolo - 130
+python -u "c:\Users\micha\Desktop\Programation\Python\Game\Game.py" - 120
+python -u "c:\Users\micha\Desktop\Programation\Python\Challenges\GuessTheNumber.py" - 0
+micha - 68
